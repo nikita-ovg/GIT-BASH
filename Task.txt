@@ -1,0 +1,24 @@
+1) pwd
+2) mkdir folder1
+3) cd folder1
+4) mkdir folder1 folder2 folder3
+5) cd folder1
+6) touch test.txt test1.txt test2.txt test3.json test4.json
+7) mkdir folder1_1 folder2_1 folder3_1
+8) ls -la
+9) vim test.txt
+10) i --> write text (Shift+Insert)
+11) esc --> :wq+Enter
+12) cd ..
+13) cd folder1
+    mv test.txt folder1_1
+    mv test2.txt folder1_1
+14) cp test3.txt folder2_1
+    cp test4.json folder2_1
+15) find -name test4.json
+16) tail -f ./folder1_1/test.txt | grep PATTERN [file]
+17) head ./folder1_1/test.txt
+18) tail ./folder1_1/test.txt
+19) less ./folder1_1/test.txt
+    Ctrl+Z
+20) date
